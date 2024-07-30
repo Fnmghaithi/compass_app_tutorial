@@ -29,8 +29,7 @@ class CompassCustomPainter extends CustomPainter {
       ..color = Colors.grey.withOpacity(.2)
       ..style = PaintingStyle.fill;
 
-    canvas.drawCircle(Offset.zero, 93, shadowCircle);
-
+    // Draw Outer Circle
     canvas.drawCircle(Offset.zero, 100, circle);
 
     Paint darkIndexLine = Paint()
